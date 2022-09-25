@@ -10,7 +10,22 @@ POST http://localhost:3000/api/products
 Content-Type: application/json
 
 {
-    "name":"dell optiplex",
-    "price": 3999,
-    "categoryId": 3
+    "name":"MSI Bravo ",
+    "price": 4200,
+    "categoryId": 3,
+    "quantity": 2
+}
+
+###
+
+DELETE  http://localhost:3000/api/products/2
+
+###
+
+PATCH  http://localhost:3000/api/products/8
+Content-Type: application/json
+
+{
+    "name":"Lenovo IdeaPad Slim 4i",
+    "price" : 2800
 }
